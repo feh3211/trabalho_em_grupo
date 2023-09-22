@@ -1,0 +1,14 @@
+body {
+  background-color: #ffcbdb;
+}
+#headerHome {
+  background-color: #16131d;
+  color: white;
+  font-family: center;
+  text-align: center;
+}
+#imagemHome{
+    width: 10;
+    height: 700px;
+    
+}
