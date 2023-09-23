@@ -1,5 +1,3 @@
-@import url();
-
 html {
   background-color: #856778;
 }
@@ -20,7 +18,18 @@ body {
   border-bottom: 2px solid;
 }
 
-.navegaçãoHome{
+.fontedança {
+  font-family: "Dancing Script", cursive;
+}
+
+p{
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 23px;
+
+}
+
+.navegaçãoHome {
   text-align: right;
 }
 
@@ -30,7 +39,6 @@ body {
   width: 130px;
   float: left;
   margin-top: -150px;
-  
 }
 
 #imagemHome {
@@ -47,19 +55,26 @@ footer {
   font-style: solid;
   color: #ffcbdb;
   text-align: center;
-  border: 30px, solid;
-}
-
-.iconeFooter {
-  width: 40px;
-  height: 40px;
-  float: right;
-  margin-top: -80px;
-  padding: 21px;
+  border: 30px solid #16131d;
 }
 
 #logoFooterHome {
-  height: 75px;
-  margin-top: -91px;
+  width: 130px;
+  height: 130px;
   float: left;
+  margin-top: -130px;
+}
+
+#inconefacebook {
+  float: right;
+  width: 30px;
+}
+#iconeinstagram {
+  float: right;
+  width: 30px;
+}
+#iconetwitter {
+  width: 30px;
+  float: right;
+  max-width: 100%;
 }
