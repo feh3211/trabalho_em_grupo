@@ -11,12 +11,16 @@ body {
 }
 
 #logoHome {
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 150px;
   font: left;
 }
 
-h1 {
+.navegaçãoHome {
+  float: right;
+}
+
+#tituloHome {
   font-size: 50px;
   font-family: "Dancing Script", cursive;
   text-align: center;
@@ -34,15 +38,10 @@ h1 {
   font-family: "Dancing Script", cursive;
 }
 
-p {
+.paragrafo1 {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 23px;
-}
-
-.navegaçãoHome {
-  text-align: right;
-  clear: none;
 }
 
 #imagemHome {
@@ -58,27 +57,28 @@ footer {
   background-color: #16131d;
   font-style: solid;
   color: #ffcbdb;
-  text-align: center;
-  border: 30px solid #16131d;
+  border: 2px top #16131d;
 }
 
 #logoFooterHome {
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   float: left;
-  margin-top: -130px;
+  position: relative;
+  top: 5px;
 }
 
-#inconefacebook {
+.icone {
   float: right;
-  width: 30px;
+  width: 40px;
+  right: 40px;
+  padding: 3px;
 }
-#iconeinstagram {
-  float: right;
-  width: 30px;
+
+#tituloFooter {
+  text-align: center;
 }
-#iconetwitter {
-  width: 30px;
-  float: right;
-  max-width: 100%;
+#paragrafoFooter{
+  text-align: center;
 }
+
