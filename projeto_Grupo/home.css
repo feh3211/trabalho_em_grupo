@@ -1,7 +1,7 @@
 @import url();
 
-html{
-    background-color: #16131d;
+html {
+  background-color: #16131d;
 }
 body {
   background-color: #ffcbdb;
@@ -17,9 +17,9 @@ body {
   text-align: center;
   border-color: #16131d;
 }
-.iconeHeader{
-    width: 40px;
-    height: 40px;
+.iconeHeader {
+  width: 40px;
+  height: 40px;
 }
 
 #imagemHome {
@@ -34,7 +34,7 @@ footer {
   text-align: center;
 }
 
-.iconeFooter{
-    width: 40px;
-    height: 40px;
+.iconeFooter {
+  width: 40px;
+  height: 40px;
 }
