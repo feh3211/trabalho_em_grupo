@@ -1,12 +1,43 @@
+
+
+html{
+    background-color: #16131d;
+}
 body {
+<<<<<<< HEAD
   background-color: #F2A0D5;
-  
+}
+=======
+  background-color: #ffcbdb;
+  margin: 0;
+}
+#paragrafoHome {
+  text-align: center;
+>>>>>>> 909710c6586a797e1a47ab82ece65060eb310456
 }
 /* #headerHome {
   background-color: #16131d;
-  color: white;
-  font-family: center;
+  border-style: solid;
+  color: #ffcbdb;
   text-align: center;
+  border-color: #16131d;
+}
+.iconeHeader{
+    width: 40px;
+    height: 40px;
+}
+
+#imagemHome {
+  width: 100%;
+  height: 150%;
+}
+
+footer {
+  background-color: #16131d;
+  font-style: solid;
+  color: #ffcbdb;
+  text-align: center;
+<<<<<<< HEAD
 } */
 #imagemHome{
    height: 5em;
@@ -28,3 +59,11 @@ footer{
   text-align: center;
   align-items: center;
 }
+=======
+
+
+.iconeFooter{
+    width: 40px;
+    height: 40px;
+}
+>>>>>>> 909710c6586a797e1a47ab82ece65060eb310456
