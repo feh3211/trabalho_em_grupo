@@ -1,14 +1,15 @@
 @import url();
 
 html {
-  background-color: #16131d;
+  background-color: #856778;
 }
 body {
   background-color: #ffcbdb;
   margin: 0;
-}
-#paragrafoHome {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid #16131d;
 }
 #headerHome {
   background-color: #16131d;
@@ -16,15 +17,34 @@ body {
   color: #ffcbdb;
   text-align: center;
   border-color: #16131d;
+  border-bottom: 2px solid;
 }
 .iconeHeader {
   width: 40px;
   height: 40px;
+  padding: 2px;
+  float: left;
+  margin-top: -30px;  
+}
+
+.linkdeNavegaçãoHome{
+  text-align: right;
+}
+
+#logoHome{
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
 
 #imagemHome {
   width: 100%;
   height: 150%;
+}
+
+#paragrafoHome {
+  text-align: center;
 }
 
 footer {
@@ -37,4 +57,7 @@ footer {
 .iconeFooter {
   width: 40px;
   height: 40px;
+  padding: 2px;
+  float: right;
+  margin-top: -30px;
 }
