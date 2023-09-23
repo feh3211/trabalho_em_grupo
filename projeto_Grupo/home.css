@@ -38,7 +38,7 @@ body {
   font-family: "Dancing Script", cursive;
 }
 
-#paragrafo1 {
+p{
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 23px;
@@ -76,9 +76,6 @@ footer {
 }
 
 #tituloFooter {
-  text-align: center;
-}
-#paragrafoFooter{
   text-align: center;
 }
 
