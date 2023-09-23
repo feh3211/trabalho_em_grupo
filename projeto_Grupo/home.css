@@ -1,21 +1,16 @@
-
+@import url();
 
 html{
     background-color: #16131d;
 }
 body {
-<<<<<<< HEAD
-  background-color: #F2A0D5;
-}
-=======
   background-color: #ffcbdb;
   margin: 0;
 }
 #paragrafoHome {
   text-align: center;
->>>>>>> 909710c6586a797e1a47ab82ece65060eb310456
 }
-/* #headerHome {
+#headerHome {
   background-color: #16131d;
   border-style: solid;
   color: #ffcbdb;
@@ -37,33 +32,9 @@ footer {
   font-style: solid;
   color: #ffcbdb;
   text-align: center;
-<<<<<<< HEAD
-} */
-#imagemHome{
-   height: 5em;
-   border-radius: 15px 10px 50px; 
-   align-items: center;
 }
-
-.para{
-  color: #593C4F;
-}
-
-.rede{
-height: 3em;
-background-color: #593C4F;
-border-radius: 15px 15px 15px;
-}
-
-footer{
-  text-align: center;
-  align-items: center;
-}
-=======
-
 
 .iconeFooter{
     width: 40px;
     height: 40px;
 }
->>>>>>> 909710c6586a797e1a47ab82ece65060eb310456
