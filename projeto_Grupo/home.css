@@ -1,19 +1,19 @@
-<<<<<<< HEAD
 @import url();
 
 html {
   background-color: #16131d;
 }
-=======
->>>>>>> c5768cebe7fd07ad6d7573e7fb69874a6ffcfab2
 body {
-  background-color: #F2A0D5;
+  background-color: #ffcbdb;
+  margin: 0;
 }
-
-/* #headerHome {
+#paragrafoHome {
+  text-align: center;
+}
+#headerHome {
   background-color: #16131d;
   border-style: solid;
-    color: #ffcbdb;
+  color: #ffcbdb;
   text-align: center;
   border-color: #16131d;
 }
@@ -32,30 +32,9 @@ footer {
   font-style: solid;
   color: #ffcbdb;
   text-align: center;
-} */
-#imagemHome{
-   height: 5em;
-   border-radius: 15px 10px 50px; 
-   align-items: center;
 }
 
-<<<<<<< HEAD
 .iconeFooter {
   width: 40px;
   height: 40px;
-=======
-.para{
-  color: #593C4F;
-}
-
-.rede{
-height: 3em;
-background-color: #593C4F;
-border-radius: 15px 15px 15px;
-}
-
-footer{
-  text-align: center;
-  align-items: center;
->>>>>>> c5768cebe7fd07ad6d7573e7fb69874a6ffcfab2
 }
