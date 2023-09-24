@@ -11,7 +11,8 @@ body {
 }
 
 #logoHome {
-  height: 150px;
+  width: 120px;
+  height: 120px;
   float: left
 }
 
@@ -54,17 +55,14 @@ p{
 
 footer {
   background-color: #16131d;
-  font-style: solid;
   color: #ffcbdb;
-  border: 2px top #16131d;
+  border-top: 2px solid  #16131d;
 }
 
 #logoFooterHome {
-  width: 80px;
-  height: 80px;
+  width: 105px;
+  height: 105px;
   float: left;
-  position: relative;
-  top: 5px;
 }
 
 .icone {
