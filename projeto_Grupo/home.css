@@ -7,30 +7,29 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-left: 2px solid #856778;
+  border-left: 1px solid #16131d;
 }
 
 #logoHome {
-  width: 100px;
-  height: 100px;
-  float: left;
-  padding-left: 10px;
+  width: 120px;
+  height: 120px;
+  float: left
 }
 
 .navegaçãoHome {
   text-decoration: none;
   float: right;
-  padding: 9px;
+  padding: 12px;
   background-color: #16131d;
-  font-family: 'Lobster', cursive;
-  color: #856778;
+  font-family: 'Fuggles', cursive;
+  font-size: 32px;
+  color: #ffcbdb;
   border-bottom: 1px solid #856778;
   border-top: 1px solid #856778;
 }
-
 #tituloHome {
-  font-size: 40px;
-  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  font-family: 'Fuggles', cursive;
   text-align: center;
   color: #856778;
 }
@@ -43,16 +42,15 @@ body {
   font: right;
 }
 
-main{
+.fontedança {
   font-family: "Dancing Script", cursive;
 }
 
-#tituloMain{
+p{
   text-align: center;
-  font-size: 22px;
-  color: #856778;
+  font-family: "Dancing Script", cursive;
+  font-size: 23px;
 }
-
 
 #imagemHome {
   width: 100%;
@@ -65,8 +63,8 @@ main{
 
 footer {
   background-color: #16131d;
-  color: #856778;
-  border-top: 2px solid  #856778;
+  color: #ffcbdb;
+  border-top: 2px solid  #16131d;
 }
 
 #logoFooterHome {
@@ -84,9 +82,13 @@ footer {
 
 #tituloFooter {
   text-align: center;
-  font-family: 'Lobster', cursive;
   color: #856778;
+  font-family: 'Fuggles', cursive;
+  font-size: 40px;
 }
 
-
-
+#paragrafoFooter{
+  color: #ffcbdb;
+  text-align: left;
+  font-family: 'Fuggles', cursive;
+}
