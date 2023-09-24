@@ -7,23 +7,32 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-left: 1px solid #16131d;
+  border-left: 2px solid #856778;
 }
 
 #logoHome {
-  width: 120px;
-  height: 120px;
-  float: left
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-left: 10px;
 }
 
 .navegaçãoHome {
+  text-decoration: none;
   float: right;
+  padding: 9px;
+  background-color: #16131d;
+  font-family: 'Lobster', cursive;
+  color: #856778;
+  border-bottom: 1px solid #856778;
+  border-top: 1px solid #856778;
 }
 
 #tituloHome {
-  font-size: 50px;
-  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
   text-align: center;
+  color: #856778;
 }
 #headerHome {
   background-color: #16131d;
@@ -34,15 +43,16 @@ body {
   font: right;
 }
 
-.fontedança {
+main{
   font-family: "Dancing Script", cursive;
 }
 
-p{
+#tituloMain{
   text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 23px;
+  font-size: 22px;
+  color: #856778;
 }
+
 
 #imagemHome {
   width: 100%;
@@ -55,8 +65,8 @@ p{
 
 footer {
   background-color: #16131d;
-  color: #ffcbdb;
-  border-top: 2px solid  #16131d;
+  color: #856778;
+  border-top: 2px solid  #856778;
 }
 
 #logoFooterHome {
@@ -74,5 +84,9 @@ footer {
 
 #tituloFooter {
   text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #856778;
 }
+
+
 
