@@ -64,7 +64,7 @@ p{
 footer {
   background-color: #16131d;
   color: #ffcbdb;
-  border-top: 2px solid  #16131d;
+  border-top: 2px solid  #856778;
 }
 
 #logoFooterHome {
@@ -84,7 +84,6 @@ footer {
   text-align: center;
   color: #856778;
   font-family: 'Fuggles', cursive;
-  font-size: px;
 }
 
 #paragrafoFooter{
