@@ -23,7 +23,7 @@ body {
   background-color: #16131d;
   font-family: 'Fuggles', cursive;
   font-size: 32px;
-  color: #ffcbdb;
+  color: white;
   border-bottom: 1px solid #856778;
   border-top: 1px solid #856778;
 }
@@ -31,7 +31,7 @@ body {
   font-size: 50px;
   font-family: 'Fuggles', cursive;
   text-align: center;
-  color: #856778;
+  color: white;
 }
 #headerHome {
   background-color: #16131d;
@@ -47,8 +47,8 @@ body {
 }
 
 p{
+font-family: 'Rajdhani', sans-serif;
   text-align: center;
-  font-family: "Dancing Script", cursive;
   font-size: 23px;
 }
 
@@ -63,7 +63,7 @@ p{
 
 footer {
   background-color: #16131d;
-  color: #ffcbdb;
+  color: white;
   border-top: 2px solid  #856778;
 }
 
@@ -82,12 +82,12 @@ footer {
 
 #tituloFooter {
   text-align: center;
-  color: #856778;
+  color: white;
   font-family: 'Fuggles', cursive;
 }
 
 #paragrafoFooter{
-  color: #ffcbdb;
+  color: white;
   text-align: left;
   font-family: 'Fuggles', cursive;
 }
