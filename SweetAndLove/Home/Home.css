@@ -110,20 +110,13 @@ html {
 
  
   #tituloHome{
-    font-size: 28px;
-    position: relative;
-    left: 28px;
-
+    font-size: 30px;
   }
   
   #imagemHome{
     max-width: 100%;
     max-height: 100%;
     height: auto;
-  }
-  
-  body{
-    font-size: 11px;
   }
   #logoHome{
     width: 50px;
@@ -137,12 +130,13 @@ html {
     list-style-type: none;
     font-family: 'Amatic SC', cursive;
     font-size: 10px;
-    width: 64px;
-    position: relative; /* Define a posição relativa para o elemento */
-    left: 28px;
-    bottom: 11px; /* Move o elemento 20 pixels para a direita */
+    width: 15px;
+    bottom: 6px;
+     /* Move o elemento 20 pixels para a direita */
   }
-  
+  body{
+    font-size: 12px;
+  }
   #tituloFooter{
   font-size: 28px;
   position: relative;
