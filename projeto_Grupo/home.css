@@ -1,21 +1,22 @@
-html {
-  background-color: #856778;
-}
-body {
-  background-color: #ffcbdb;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  border-left: 1px solid #16131d;
-}
+  html {
+    background-color: white;
+  }
+  body {
+    background-color: #fae7e7;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: 1px solid #b29077;
+  }
 
-#logoHome {
-  width: 120px;
-  height: 120px;
-  float: left
-}
+  #logoHome {
+    width: 110px;
+    height: 110px;
+    float: left;
+  }
 
+<<<<<<< HEAD
 .navegaçãoHome {
   text-decoration: none;
   float: right;
@@ -40,12 +41,143 @@ body {
   border-color: #16131d;
   border-bottom: 2px solid;
   font: right;
+=======
+  #navegaçãoHome {
+    float: right;
+    color: white;
+    list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 19px;
+    width: 90px;
+    position: relative;
+    height: 3px;
+  }
+
+  .corNav {
+    color: white;
+  }
+
+  p{font-family: 'Mooli', sans-serif; 
+  text-align: center;
+  }
+  ul{font-family: 'Mooli', sans-serif;}
+
+  a{text-decoration: none;}
+  
+  #tituloHome {
+    position: relative;
+    right: 0px;
+    top: 25px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Italianno', cursive;
+  }
+  #headerHome {
+    background-color: #b29077;
+    border-style: 1px solid;
+    color: white;
+    border-color: #b29077;
+    border-bottom: 2px solid;
+    font: right;
+  }
+
+  #imagemHome {
+    width: 100%;
+    height: auto;
+  }
+
+  #paragrafoHome {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #b29077;
+    color: #fae7e7;
+    border-top: 3px solid white;
+  }
+
+  #logoFooter {
+    width: 120px;
+    float: left;
+    position: relative;
+    top: 25px; /* Mova 20 pixels para baixo */
+  }
+
+  #tituloFooter {
+    text-align: center;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+  }
+
+  .icone {
+    float: right;
+    width: 40px;
+    right: 40px;
+    padding: 3px;
+    position: relative;
+    top: 125px; /* Mova 20 pixels para baixo */
+    right: 10px;
+  }
+  
+  #paragrafoFooter {
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 10px;
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+
+  #imagemHome{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+
+  body{
+    font-size: 11px;
+  }
+  #logoHome{
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  #tituloHome {
+    font-size: 30px;
+    position: relative;
+    left: 32px;
+    top: 20px;
+  }
+
+ #navegaçãoHome {
+    float: right;
+    color: white;
+    list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 10px;
+    width: 70px;
+    position: relative; /* Define a posição relativa para o elemento */
+    left: 35px; /* Move o elemento 20 pixels para a direita */
+>>>>>>> work
 }
 
-.fontedança {
-  font-family: "Dancing Script", cursive;
+#tituloFooter{
+  font-size: 28px;
+  position: relative;
+  left: 10px;
 }
 
+<<<<<<< HEAD
 p{
 font-family: 'Rajdhani', sans-serif;
   text-align: center;
@@ -77,8 +209,22 @@ footer {
   float: right;
   width: 40px;
   right: 40px;
-  padding: 3px;
+=======
+#logoFooter {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 15px;
 }
+.icone{
+  width: 18px;
+>>>>>>> work
+  padding: 3px;
+  position: relative;
+  top: 55px; /* Mova 20 pixels para baixo */
+  right: 0px
+}
+<<<<<<< HEAD
 
 #tituloFooter {
   text-align: center;
@@ -90,4 +236,9 @@ footer {
   color: white;
   text-align: left;
   font-family: 'Fuggles', cursive;
+=======
+#paragrafoFooter{
+  font-size: 7px;
+>>>>>>> work
+}
 }
