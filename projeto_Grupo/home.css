@@ -10,7 +10,7 @@ body {
   border-left: 1px solid #0D0D0D;
 }
 
-#logoHome {
+.logoHome {
   width: 120px;
   height: 120px;
   float: left
