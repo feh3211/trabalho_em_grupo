@@ -1,13 +1,13 @@
 html {
-  background-color: #856778;
+  background-color: #F2B6B6;
 }
 body {
-  background-color: #ffcbdb;
+  background-color: #F1C4F2;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-left: 1px solid #16131d;
+  border-left: 1px solid #0D0D0D;
 }
 
 #logoHome {
@@ -20,24 +20,24 @@ body {
   text-decoration: none;
   float: right;
   padding: 12px;
-  background-color: #16131d;
+  background-color: #0D0D0D;
   font-family: 'Fuggles', cursive;
   font-size: 32px;
-  color: #ffcbdb;
-  border-bottom: 1px solid #856778;
-  border-top: 1px solid #856778;
+  color: #F1C4F2;
+  border-bottom: 1px solid #F1C4F2;
+  border-top: 1px solid #F1C4F2;
 }
 #tituloHome {
   font-size: 50px;
   font-family: 'Fuggles', cursive;
   text-align: center;
-  color: #856778;
+  color: #F1C4F2;
 }
 #headerHome {
-  background-color: #16131d;
+  background-color: #0D0D0D;
   border-style: solid;
-  color: #856778;
-  border-color: #16131d;
+  color: #F2B6B6;
+  border-color: #0D0D0D;
   border-bottom: 2px solid;
   font: right;
 }
@@ -62,9 +62,9 @@ p{
 }
 
 footer {
-  background-color: #16131d;
-  color: #ffcbdb;
-  border-top: 2px solid  #856778;
+  background-color: #0D0D0D;
+  color: #F1C4F2;
+  border-top: 2px solid  #F2B6B6;
 }
 
 #logoFooterHome {
@@ -82,12 +82,12 @@ footer {
 
 #tituloFooter {
   text-align: center;
-  color: #856778;
+  color: #F1C4F2;
   font-family: 'Fuggles', cursive;
 }
 
 #paragrafoFooter{
-  color: #ffcbdb;
+  color: #F1C4F2;
   text-align: left;
   font-family: 'Fuggles', cursive;
 }
