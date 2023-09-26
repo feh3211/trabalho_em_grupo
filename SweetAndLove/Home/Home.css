@@ -109,8 +109,11 @@ html {
   @media (max-width: 780px) {
 
  
-  .tituloHome{
-    font-size: 10px;
+  #tituloHome{
+    font-size: 28px;
+    position: relative;
+    left: 28px;
+
   }
   
   #imagemHome{
@@ -133,8 +136,8 @@ html {
     color: white;
     list-style-type: none;
     font-family: 'Amatic SC', cursive;
-    font-size: 11px;
-    width: 67px;
+    font-size: 10px;
+    width: 64px;
     position: relative; /* Define a posição relativa para o elemento */
     left: 28px;
     bottom: 11px; /* Move o elemento 20 pixels para a direita */
