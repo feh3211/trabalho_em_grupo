@@ -46,6 +46,7 @@ a{text-decoration: none;}
   text-align: center;
   color: white;
   font-family: 'Italianno', cursive;
+  font-weight: normal;
 }
 #headerHome {
   background-color: #b29077;
@@ -83,6 +84,7 @@ footer {
   color: white;
   font-family: 'Italianno', cursive;
   font-size: 60px;
+  font-weight: normal;
 }
 
 .icone {
