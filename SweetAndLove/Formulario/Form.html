@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <header id="headerHome">
+        
+        <nav>
+            <ul id="navHome">
+                <li><a href="/Home/Home.html" class="corNav">Home</a></li>
+                <li><a href="/Doces/Doces.html" class="corNav">Doces</a></li>
+                <li><a href="/Salgados/Salgados.html" class="corNav">Salgado</a></li>
+                <li><a href="/Formulario/Form.html" class="corNav">Formulario</a></li>
+              </ul>
+          </nav>
+          <h1 id="tituloHome">Sweet and Love</h1> 
+      </header>
+
+      <main>
+  
+  
+    <h1 class="con">Entre em Contato Conosco</h1>
+    <form class="container">
+        <!--a Label serve para identificar o que sera pedido no campo-->
+        <h2>Dados Pessoais</h2>
+        <label for="">Nome Completo</label> <br>
+        <input type="text" placeholder="Ex: Sandro Oliveira"/> <br /><br />
+        <label for="">Endereço</label> <br>
+        <input type="text"placeholder="Ex : Av do Estado 22" /> <br /><br />
+        <label for="">Email</label> <br>
+        <input type="text"placeholder="Ex : Fulano@gmail.com" /> <br> <br>
+        <label for="">Cidade</label> <br>
+        <input type="text" placeholder="Ex: SP"/> <br> <br>
+        <label for="">Telefone</label> <br>
+        <input type="number" placeholder="Ex: 1191234678"/>
+
+
+        <h4>
+          Selecione uma ou mais opções que voce mais gostou na nossa loja
+        </h4>
+
+        <!--Começo do input CheckBox-->
+        <h4>Selecione abaixo os doces que gostaria de comprar</h4>
+        <input type="checkbox" />
+        <label for="">Bolo de cenoura</label>
+        <br />
+        <br />
+        <input type="checkbox" />
+        <label for="">Nutella</label>
+        <br />
+        <br />
+        <input type="checkbox" />
+        <label for="">Cajuzinho</label>
+        <br /><br />
+        <input type="checkbox" />
+        <label for="">Cocada</label>
+        <br /><br />
+        <input type="checkbox" />
+        <label for="">Brigadeiro</label>
+        <br /><br />
+        <!--Fim do CheckBox-->
+        <h4>Selecione abaixo os salgados que gostaria de comprar</h4>
+        
+        <input type="checkbox" />
+        <label for="">Croiassant</label>
+        <br />
+        <br />
+        <input type="checkbox" />
+        <label for="">Risole de presunto e queijo</label>
+        <br />
+        <br />
+        <input type="checkbox" />
+        <label for="">Risoto de presunto e queijo</label>
+        <br /><br />
+        <input type="checkbox" />
+        <label for="">Enroladinho de salsicha</label>
+        <br /><br />
+        <input type="checkbox" />
+        <label for="">Brigadeiro</label>
+        <br>
+        <!--Fim do Input Range-->
+       
+        <!--Inicio do select-->
+        <h4>Selecione a forma de pagamento</h4>
+       <br>
+        <input type="radio"  for="cid" name="tipo" value="p" >
+        <label>Debito </label> <br>
+        
+        <input type="radio"  for="id" name="tipo" value="a" >
+        <label>Credito </label> <br>
+
+        <input type="radio"  for="ci" name="tipo" value="g" >
+        <label>Pix </label> <br>
+
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </main>
+  </div>
+
+  <footer class="fontedança">
+    <a href="/Home/Home.html"><img src="IMG/Sweet and love (3).png" alt="" id="logoFooter"/></a>
+    <nav>
+      <a href="https://www.facebook.com/login.php?login_attempt=1&lwv=120&lwc=1348092" target="_blank"><img class="icone" src="IMG/logo-do-facebook.png" /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img class="icone" src="IMG/instagram (2).png" alt=""/></a>
+      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank"><img class="icone" src="IMG/twitter (4).png" alt=""/></a>
+    </nav>
+    <h1 id="tituloFooter">Sweet and Love</h1>
+    <p id="paragrafoFooter">&copy; Sweet and Love 2023</p>
+  </footer>
+</body>
+</html>
+
