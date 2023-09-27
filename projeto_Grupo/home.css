@@ -1,49 +1,65 @@
 html {
-  background-color: #856778;
+  background-color: white;
 }
 body {
-  background-color: #ffcbdb;
+  background-color: #fae7e7;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-left: 1px solid #16131d;
-}
-#headerHome {
-  background-color: #16131d;
-  border-style: solid;
-  color: #ffcbdb;
-  text-align: center;
-  border-color: #16131d;
-  border-bottom: 2px solid;
-}
-
-.fontedança {
-  font-family: "Dancing Script", cursive;
-}
-
-p{
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 23px;
-
-}
-
-.navegaçãoHome {
-  text-align: right;
+  border-left: 1px solid #b29077;
 }
 
 #logoHome {
-  width: 100%;
-  height: 130px;
-  width: 130px;
+  width: 110px;
+  height: 110px;
   float: left;
-  margin-top: -150px;
+}
+
+#navegaçãoHome {
+  float: right;
+  color: white;
+  list-style-type: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 19px;
+  width: 90px;
+  position: relative;
+  height: 3px;
+}
+
+.corNav {
+  color: white;
+}
+
+p{font-family: 'Mooli', sans-serif; 
+text-align: center;
+}
+ul{font-family: 'Mooli', sans-serif;}
+
+a{text-decoration: none;}
+
+#tituloHome {
+  position: relative;
+  right: 0px;
+  top: 25px;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-family: 'Italianno', cursive;
+  font-weight: normal;
+}
+#headerHome {
+  background-color: #b29077;
+  border-style: 1px solid;
+  color: white;
+  border-color: #b29077;
+  border-bottom: 2px solid;
+  font: right;
 }
 
 #imagemHome {
   width: 100%;
-  height: 150%;
+  height: auto;
 }
 
 #paragrafoHome {
@@ -51,30 +67,105 @@ p{
 }
 
 footer {
-  background-color: #16131d;
-  font-style: solid;
-  color: #ffcbdb;
-  text-align: center;
-  border: 30px solid #16131d;
+  background-color: #b29077;
+  color: #fae7e7;
+  border-top: 3px solid white;
 }
 
-#logoFooterHome {
-  width: 130px;
-  height: 130px;
+#logoFooter {
+  width: 120px;
   float: left;
-  margin-top: -130px;
+  position: relative;
+  top: 25px; /* Mova 20 pixels para baixo */
 }
 
-#inconefacebook {
-  float: right;
-  width: 30px;
+#tituloFooter {
+  text-align: center;
+  color: white;
+  font-family: 'Italianno', cursive;
+  font-size: 60px;
+  font-weight: normal;
 }
-#iconeinstagram {
+
+.icone {
   float: right;
-  width: 30px;
+  width: 40px;
+  right: 40px;
+  padding: 3px;
+  position: relative;
+  top: 125px; /* Mova 20 pixels para baixo */
+  right: 10px;
 }
-#iconetwitter {
-  width: 30px;
-  float: right;
+
+#paragrafoFooter {
+  color: white;
+  text-align: center;
+  position: relative;
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+
+#imagemHome{
   max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+body{
+  font-size: 11px;
+}
+#logoHome{
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+#tituloHome {
+  font-size: 30px;
+  position: relative;
+  left: 32px;
+  top: 20px;
+}
+
+#navegaçãoHome {
+  float: right;
+  color: white;
+  list-style-type: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 10px;
+  width: 70px;
+  position: relative; /* Define a posição relativa para o elemento */
+  left: 35px; /* Move o elemento 20 pixels para a direita */
+}
+
+#tituloFooter{
+font-size: 28px;
+position: relative;
+left: 10px;
+}
+
+#logoFooter {
+width: 60px;
+height: 60px;
+position: relative;
+top: 15px;
+}
+.icone{
+width: 18px;
+padding: 3px;
+position: relative;
+top: 55px; /* Mova 20 pixels para baixo */
+right: 0px
+}
+#paragrafoFooter{
+font-size: 7px;
+}
 }
