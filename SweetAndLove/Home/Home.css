@@ -106,12 +106,18 @@ footer {
 
 
 @media (max-width: 780px) {
-  #tituloHome {
+  #tituloHeader {
     font-size: 30px;
   }
   /*---------------------------------------------------Header--------------------------------------------------------------------------*/
   body {
     font-size: 12px;
+  }
+  
+  #tituloHeader{
+    font-size:  28px;
+    position: relative;
+    left: 15px;
   }
 
   #imagemHome {
@@ -119,19 +125,19 @@ footer {
     max-height: 100%;
     height: auto;
   }
-  #logoHome {
+  #logoHeader {
     width: 50px;
     height: 50px;
-    position: relative;
   }
 
-  #navHome {
+  #navHeader {
     float: right;
     color: white;
     list-style-type: none;
     font-family: "Amatic SC", cursive;
-    font-size: 9px;
-    position: relative;   
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;  
     /* Move o elemento 20 pixels para a direita */
   }
   /*-----------------------------------------------------------------------------------------------------------------------------------*/
@@ -153,8 +159,8 @@ footer {
     width: 18px;
     padding: 3px;
     position: relative;
-    top: 55px; /* Mova 20 pixels para baixo */
-    right: 0px;
+    top: 63px; /* Mova 20 pixels para baixo */
+    right: 3px;
   }
   #paragrafoFooter {
     position: relative;
