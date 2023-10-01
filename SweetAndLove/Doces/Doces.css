@@ -1,14 +1,10 @@
-html{
-    background-color: white;
+*{
+    margin: 0%;
+
 }
 
 body{
     background-color: #fae7e7;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-left: 1px solid #b29077;
 }
 
 header{
@@ -17,39 +13,90 @@ header{
     font-family: 'Amatic SC', cursive;
     font-size: 17px;
     background-color: #b29077;
-    border-style: 1px solid;
     border-color: #b29077;
-    border-bottom: 2px solid;
-    font: right;
-    border-radius: 20px 15px 20px;
-    font-family: 'Mooli', sans-serif;
-    height: 10rem;
+    width: 100%;
+    padding: 4rem 0;
 }
 
-
-#titulo{
+/* nome da empresa */
+.nome{
+    text-justify: center;
     text-align: center;
     font-family: 'Italianno', cursive;
     font-weight: bold;
 }
 
+/* posição no navegador */
 nav{
-    color: white;
-    list-style-type: none;
+
+    float: right ;
+    position: relative;
+    left: auto;
+    right: 2rem;
+    bottom: 4rem;
     
+}
+
+/* lista do navegador */
+nav a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+/* lista do navegador  */
+#navegador{
+    list-style-type: none;
 }
 
 .logo{
-    height: 8rem;
-    width: 8rem;
+    height: auto;
+    width: 10rem;
     float: left;
+
 }
 
-.home{
+/* posição da logo no cabeçario */
+.cab{
+    position: relative;
+    left: 1rem;
+    top: 0%;
+    bottom: 6rem;
+    right: 0%;  
     
 }
 
+/* posição da imagem de capa da pg */
 #capa{
     height: auto;
     width: 100%;
+    
+}
+
+#doces{
+      
+}
+
+footer{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+    background-color: #b29077;
+    border-color: #b29077;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+/* posição da logo no rodapé */
+.rod{
+    position: relative;
+    left: 1rem;
+    top: 0%;
+    bottom: 4rem;
+    right: 0%;
+}
+
+/* copy */
+footer p{
+    float: right;
 }
