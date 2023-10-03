@@ -85,6 +85,7 @@ footer {
   font-family: "Italianno", cursive;
   font-size: 70px;
   font-weight: normal;
+  text-align: center;
   position: relative;
   right: 60px;
 }
@@ -94,16 +95,14 @@ footer {
   width: 40px;
   right: 40px;
   padding: 3px;
-  position: relative;
-  top: 125px; /* Mova 20 pixels para baixo */
-  right: 10px;
 }
 
 #paragrafoFooter {
   color: white;
-  text-align: left;
+  float: left;
   font-size: 15px;
 }
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
