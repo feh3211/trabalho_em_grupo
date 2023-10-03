@@ -79,13 +79,6 @@ footer {
   border-top: 2px solid white;
 }
 
-#logoFooter {
-  width: 120px;
-  float: left;
-  position: relative;
-  top: 25px; /* Mova 20 pixels para baixo */
-}
-
 #tituloFooter {
   text-align: center;
   color: white;
