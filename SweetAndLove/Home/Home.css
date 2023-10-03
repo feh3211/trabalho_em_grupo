@@ -1,5 +1,5 @@
 html {
-  background-color: white;
+  background-color: #fae7e7;
 }
 body {
   background-color: #fae7e7;
@@ -8,6 +8,7 @@ body {
   margin-right: auto;
   width: 80%;
   border-left: 1px solid #b29077;
+  border-right: 1px solid #b29077
 }
 
 /*---------------------------------------------------Header-------------------------------------------------------------------*/
@@ -18,7 +19,7 @@ header{
 }
 
 #logoHeader {
-  width: 110px;
+  height: auto;
   height: 110px;
   float: left;
 }
@@ -28,10 +29,10 @@ header{
 }
 
 #navHeader {
-  border-bottom: 2px solid #fae7e7;
+  list-style-type: none;
+  border-bottom: 2px solid #b29077;
   border: 1px solid #b29077;
   background-color: #b29077;
-  list-style-type: none;
   font-family: "Amatic SC", cursive;
   float: right;
   position: relative;
@@ -43,13 +44,11 @@ a {
 }
 
 #tituloHeader{ 
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
   color: white;
   font-family: "Italianno", cursive;
   font-weight: normal;
-  position: relative;
-  right: 14px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
@@ -63,9 +62,14 @@ a {
 p {
   font-family: "Amatic SC", cursive;
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
-ul{
+
+ul {
   font-family: "Amatic SC", cursive;
+  font-size: 17px;
+
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -87,10 +91,10 @@ footer {
   text-align: center;
   color: white;
   font-family: "Italianno", cursive;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: normal;
   position: relative;
-  left: 55px;
+  right: 60px;
 }
 
 .icone {
@@ -105,73 +109,9 @@ footer {
 
 #paragrafoFooter {
   color: white;
-  text-align: center;
-  position: relative;
-  right: 10px;
+  text-align: left;
+  font-size: 15px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
-@media (max-width: 780px) {
-  #tituloHeader {
-    font-size: 30px;
-  }
-  /*---------------------------------------------------Header--------------------------------------------------------------------------*/
-  body {
-    font-size: 12px;
-  }
-  
-  #tituloHeader{
-    font-size:  28px;
-    position: relative;
-    left: 15px;
-  }
-
-  #imagemHome {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-  }
-  #logoHeader {
-    width: 50px;
-    height: 50px;
-  }
-
-  #navHeader {
-    float: right;
-    color: white;
-    list-style-type: none;
-    font-family: "Amatic SC", cursive;
-    font-size: 10px;
-    position: relative;
-    bottom: 6px;  
-    /* Move o elemento 20 pixels para a direita */
-  }
-  /*-----------------------------------------------------------------------------------------------------------------------------------*/
-
-  /*---------------------------------------------------------Footer--------------------------------------------------------------------*/
-  #tituloFooter {
-    font-size: 28px;
-    position: relative;
-    left: 40px;
-  }
-
-  #logoFooter {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    top: 15px;
-  }
-  .icone {
-    width: 18px;
-    padding: 3px;
-    position: relative;
-    top: 63px; /* Mova 20 pixels para baixo */
-    right: 3px;
-  }
-  #paragrafoFooter {
-    position: relative;
-    left: 1px;
-  }
-}
-  /*-----------------------------------------------------------------------------------------------------------------------------------*/
