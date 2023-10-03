@@ -49,6 +49,8 @@ a {
   color: white;
   font-family: "Italianno", cursive;
   font-weight: normal;
+  position: relative;
+  top: 25px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
