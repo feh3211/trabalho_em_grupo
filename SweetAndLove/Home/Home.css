@@ -15,7 +15,6 @@ body {
 header{
   background-color: #b29077;
   border-bottom: 2px solid #b29077;
-  border-radius: 20px 15px 20px;
 }
 
 #logoHeader {
@@ -37,6 +36,7 @@ header{
   float: right;
   position: relative;
   right: 20px;
+  font-size: 20px;
 }
 
 a {
@@ -77,7 +77,6 @@ ul {
 footer {
   background-color: #b29077;
   border-top: 2px solid white;
-  border-radius: 20px 15px 20px;
 }
 
 #logoFooter {
