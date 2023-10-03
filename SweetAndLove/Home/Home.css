@@ -8,11 +8,11 @@ body {
   margin-right: auto;
   width: 80%;
   border-left: 1px solid #b29077;
-  border-right: 1px solid #b29077
+  border-right: 1px solid #b29077;
 }
 
 /*---------------------------------------------------Header-------------------------------------------------------------------*/
-header{
+header {
   background-color: #b29077;
   border-bottom: 2px solid #b29077;
 }
@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 
-#tituloHeader{ 
+#tituloHeader {
   font-size: 70px;
   text-align: center;
   color: white;
@@ -71,7 +71,6 @@ p {
 ul {
   font-family: "Amatic SC", cursive;
   font-size: 17px;
-
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -112,5 +111,3 @@ footer {
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
-
