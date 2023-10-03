@@ -61,8 +61,11 @@ a {
 }
 
 p {
-  font-family: "Mooli", sans-serif;
+  font-family: "Amatic SC", cursive;
   text-align: center;
+}
+ul{
+  font-family: "Amatic SC", cursive;
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
