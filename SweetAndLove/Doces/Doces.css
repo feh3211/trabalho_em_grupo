@@ -1,29 +1,48 @@
 *{
-    margin: 0%;
+    margin: 0px;
 
 }
 
 body{
     background-color: #fae7e7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: 1px solid #b29077;
+    border-right: 1px solid #b29077;
+    font-family: "Amatic SC", cursive;
+    font-size: 20px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    margin-left: 5em;
 }
 
 header{
 
     color: white;
-    font-family: 'Amatic SC', cursive;
+    font-family: "Amatic SC", cursive;
     font-size: 17px;
     background-color: #b29077;
     border-color: #b29077;
     width: 100%;
-    padding: 4rem 0;
+    padding: 3rem 0;
+    border-bottom: 2px solid #000000;
 }
 
 /* nome da empresa */
 .nome{
     text-justify: center;
     text-align: center;
-    font-family: 'Italianno', cursive;
-    font-weight: bold;
+    font-family: "Italianno", cursive;
+    font-weight: normal;
+    font-size: 60px;
+
 }
 
 /* posição no navegador */
@@ -33,8 +52,10 @@ nav{
     position: relative;
     left: auto;
     right: 2rem;
-    bottom: 4rem;
+    bottom: 6rem;
+    font-size: 1.5em;
     
+
 }
 
 /* lista do navegador */
@@ -42,6 +63,11 @@ nav a{
     list-style-type: none;
     color: white;
     text-decoration: none;
+    border: 1px solid #6b4226;
+    text-justify: center;
+    text-align: center;
+    
+    
 }
 
 /* lista do navegador  */
@@ -60,43 +86,41 @@ nav a{
 .cab{
     position: relative;
     left: 1rem;
-    top: 0%;
-    bottom: 6rem;
-    right: 0%;  
+    bottom: 7rem; 
     
 }
 
 /* posição da imagem de capa da pg */
 #capa{
     height: auto;
-    width: 100%;
-    
-}
-
-#doces{
-      
+    width: 100%;    
 }
 
 footer{
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 17px;
+    font-size: 1.5em;
     background-color: #b29077;
     border-color: #b29077;
     width: 100%;
-    padding: 4rem 0;
-}
+    padding: 3rem 0;
+    border-top: 2px solid #000000;
 
-/* posição da logo no rodapé */
-.rod{
-    position: relative;
-    left: 1rem;
-    top: 0%;
-    bottom: 4rem;
-    right: 0%;
 }
 
 /* copy */
-footer p{
-    float: right;
+footer p{   
+    text-align: center;
+}
+
+#doces1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.doce{
+    border-radius: 10%;
+    height: 15%;
+    width: 15%;
+    margin-top: 10px;
 }
