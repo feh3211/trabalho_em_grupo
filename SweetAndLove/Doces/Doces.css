@@ -15,8 +15,14 @@ body{
     
 }
 
+/* nome da empresa */
 h2{
     text-align: center;
+    text-justify: center;
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: normal;
+    font-size: 60px;
 }
 
 section{
@@ -27,34 +33,26 @@ header{
 
     color: white;
     font-family: "Amatic SC", cursive;
-    font-size: 17px;
+    font-size: 1,5rem;
     background-color: #b29077;
     border-color: #b29077;
     width: 100%;
-    padding: 3rem 0;
+    padding: 1rem 0;
     border-bottom: 2px solid #000000;
 }
 
-/* nome da empresa */
-.nome{
-    text-justify: center;
-    text-align: center;
-    font-family: "Italianno", cursive;
-    font-weight: normal;
-    font-size: 60px;
-
-}
-
 /* posição no navegador */
- nav{
-
-    float: right ;
+nav{
+    display: grid;
+    justify-content: end;
+    justify-items: center;
+    align-content: center;
+    padding: 2rem;
     position: relative;
     left: auto;
     right: 2rem;
     bottom: 6rem;
-    font-size: 1.5em; 
-
+    
 }
 
 /* lista do navegador */
@@ -65,28 +63,15 @@ nav a{
     border: 1px solid #6b4226;
     text-justify: center;
     text-align: center;
-    
-    
 }
 
-/* lista do navegador  */
-#navegador{
-    list-style-type: none;
-}
-
-.logo{
+#logo{
     height: auto;
     width: 10rem;
     float: left;
-
-}
-
-/* posição da logo no cabeçario */
-.cab{
     position: relative;
     left: 1rem;
-    bottom: 7rem; 
-    
+    bottom: 7rem ;
 }
 
 /* posição da imagem de capa da pg */
