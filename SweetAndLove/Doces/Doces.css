@@ -46,15 +46,14 @@ header{
 }
 
 /* posição no navegador */
-nav{
+ nav{
 
     float: right ;
     position: relative;
     left: auto;
     right: 2rem;
     bottom: 6rem;
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
 
 }
 
