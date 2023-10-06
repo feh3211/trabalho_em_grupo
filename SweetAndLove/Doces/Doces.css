@@ -17,7 +17,7 @@ body{
 
 /* nome da empresa */
 h2{
-    text-align: center;
+    
     text-justify: center;
     text-align: center;
     font-family: "Italianno", cursive;
@@ -36,7 +36,7 @@ header{
     font-size: 1,5rem;
     background-color: #b29077;
     border-color: #b29077;
-    height: 8em ;
+    height: 10em ;
     /* padding: 1rem 0; */
     border-bottom: 2px solid #000000;
 }
