@@ -61,11 +61,10 @@ footer {
   border-color: #b29077;
   color: white;
   border-top: 2px solid #000000;
-  text-align: center;
 }
 
 #titulofooter{
-  bottom: rem;
+  bottom: 1rem;
 }
 
 footer a img{
@@ -74,8 +73,9 @@ footer a img{
 
 }
 
-copy
+/* copy */
 footer p{   
-  text-align: end;
+
+  
 }
 
