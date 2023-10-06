@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  background-color: #fae7e7;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid #b29077;
+  border-right: 1px solid #b29077;
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+}
+
+#logo {
+  height: auto;
+  width: 8rem;
+  float: left;
+  position: relative;
+  left: 1rem;
+}
+/*titulo da pagina*/
+h2 {
+  font-family: "Italianno", cursive;
+  text-justify: center;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: normal;
+  position: relative;
+  bottom: 150px;
+}
+/*posição navegador*/
+nav {
+  display: grid;
+  justify-content: end;
+  padding: 2rem;
+  position: relative;
+}
+/*estilização do texto*/
+nav a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #b29077;
+}
+
+footer {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+  border-top: 2px solid #000000;
+}

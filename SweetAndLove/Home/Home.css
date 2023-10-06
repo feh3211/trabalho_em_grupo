@@ -27,6 +27,7 @@ header {
 }
 
 #navHeader {
+  display: grid;
   list-style-type: none;
   border-bottom: 2px solid #b29077;
   border: 1px solid #b29077;
@@ -42,7 +43,7 @@ a {
   text-decoration: none;
 }
 
-#tituloHeader {
+h1 {
   font-size: 70px;
   text-align: center;
   color: white;
