@@ -17,24 +17,28 @@ header {
   background-color: #b29077;
   border-color: #b29077;
   color: white;
+  height: 11.1rem;
+  border-bottom: 2px solid #000000;
 }
 
 #logo {
   height: auto;
-  width: 8rem;
+  width: 9rem;
   float: left;
   position: relative;
   left: 1rem;
+  top: 1.5rem;
 }
 /*titulo da pagina*/
 h2 {
   font-family: "Italianno", cursive;
-  text-justify: center;
-  text-align: center;
   font-size: 5rem;
   font-weight: normal;
+  width: 25rem;
   position: relative;
-  bottom: 150px;
+  top: auto;
+  left: 22rem;
+  bottom: 8.5rem;
 }
 /*posição navegador*/
 nav {
@@ -49,6 +53,7 @@ nav a {
   color: white;
   text-decoration: none;
   border: 1px solid #b29077;
+  
 }
 
 footer {
@@ -56,4 +61,21 @@ footer {
   border-color: #b29077;
   color: white;
   border-top: 2px solid #000000;
+  text-align: center;
 }
+
+#titulofooter{
+  bottom: rem;
+}
+
+footer a img{
+  right: 1rem;
+  width: 2rem;
+
+}
+
+copy
+footer p{   
+  text-align: end;
+}
+
