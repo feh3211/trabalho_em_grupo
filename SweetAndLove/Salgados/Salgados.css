@@ -1,137 +1,116 @@
-html {
-    background-color: #fae7e7;
-  }
-  body {
-    background-color: #fae7e7;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-left: 1px solid #b29077;
-    border-right: 1px solid #b29077;
-  }
-  
-  /*---------------------------------------------------Header-------------------------------------------------------------------*/
-  header {
-    background-color: #b29077;
-    border-bottom: 2px solid #b29077;
-  }
-  
-  #logoFooter {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    top: 15px;
-    }
-  
-  #logoHeader {
-    height: 110px;
-    float: left;
-  }
-  
-  .corNav {
-    color: white;
-   ;
-
-  }
-  
-  #navHeader {
-    list-style-type: none;
-    border-bottom: 2px solid #b29077;
-    border: 1px solid #b29077;
-    background-color: #b29077;
-    font-family: "Amatic SC", cursive;
-    float: right;
-    position: relative;
-    right: 20px;
-    font-size: 20px;
-    
-  }
-  
-  a {
-    text-decoration: none;
-    border: 1px solid #6b4226;
-
-  }
-  
-  #tituloHeader {
-    font-size: 70px;
-    text-align: center;
-    color: white;
-    font-family: "Italianno", cursive;
-    font-weight: normal;
-  }
-  
-  nav a{
-    list-style-type: none;
-    color: white;
-    text-decoration: none;
-    border: 1px solid #6b4226;
-    text-justify: center;
-    text-align: center;
+* {
+  margin: 0;
+  font-family: "Amatic SC", cursive;
 }
-  /*--------------------------------------------------------------------------------------------------------------------------------*/
-  
-  /*----------------------------------------------------Main------------------------------------------------------------------------*/
-  #imagemHome {
-    width: 100%;
-    height: auto;
-  }
-  
-  h2 {
-    font-family: "Amatic SC", cursive;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-  }
 
-  h3{
-    font-family: "Amatic SC", cursive;
-    font-size: 2rem; 
-    margin-left: 2rem;
-  }
-  
-  ul {
-    font-family: "Amatic SC", cursive;
-    font-size: 17px;
-  }
-  /*---------------------------------------------------------------------------------------------------------------------------------*/
-  
-  /*-----------------------------------------------------Footer----------------------------------------------------------------------*/
-  footer {
-    background-color: #b29077;
-    border-top: 2px solid white;
-  }
-  
-  #tituloFooter {
-    text-align: center;
-    color: white;
-    font-family: "Italianno", cursive;
-    font-size: 70px;
-    font-weight: normal;
-    text-align: center;
-    position: relative;
-    bottom: 30px;
-    right: 60px;
-  }
-  
-  .icone {
-    float: right;
-    width: 40px;
-    right: 40px;
-    padding: 3px;
-    position: relative;
-    top: 90px;
-    left: 1px;
-  }
-  
-  #paragrafoFooter {
-    color: white;
-    float: left;
-    font-size: 15px;
-    position: relative;
-    top: 100px;
-  }
-  
+body {
+  background-color: #fae7e7;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid #b29077;
+  border-right: 1px solid #b29077;
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+  height: 11.1rem;
+  border-bottom: 2px solid #000000;
+}
+
+#logo {
+  height: auto;
+  width: 9rem;
+  float: left;
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+}
+
+/*titulo da pagina*/
+#Titulo-header {
+  font-family: "Italianno", cursive;
+  font-size: 5rem;
+  font-weight: normal;
+  width: 22rem;
+  position: relative;
+  top: auto;
+  left: 37%;
+  right: 34%;
+  bottom: 8.5rem;
+  text-align: center;
+}
+
+/*posição navegador*/
+nav {
+  display: grid;
+  justify-content: end;
+  padding: 2rem;
+  position: relative;
+}
+
+/*estilização do texto*/
+nav a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #b29077;
+}
+
+section{
+  margin-left: 5em;
+}
+
+
+/* posição da imagem de capa da pg */
+#Capa{
+  height: auto;
+  width: 100%;   
+  margin-top: -73px; 
+}
+
+#Salgados{
+  display: flex;
+  justify-content: space-around;
+}
+
+.salgado{
+  border-radius: 10%;
+  height: 15%;
+  width: 15%;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+  border-top: 2px solid #000000;
+  height: 11.1rem;
+}
+
+#tituloFooter{
+  bottom: 0.8rem;
+}
+
+footer a img{
+  right: 1rem;
+  width: 2rem;
+  float: right;
+  padding: 0.3rem;
+  position: relative;
+  top: 5rem;
+}
+
+/* copy */
+footer p{  
+  position: relative;
+  top: 7rem;
+  padding: 1rem;
+  text-align: left;
+}
 
   
