@@ -37,8 +37,8 @@ h2 {
   width: 22rem;
   position: relative;
   top: auto;
-  left:30%;
-  right:34%;
+  left: 37%;
+  right: 34%;
   bottom: 8.5rem;
   text-align: center;
 }
@@ -58,6 +58,11 @@ nav a {
   
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #b29077;
   border-color: #b29077;
@@ -74,7 +79,9 @@ footer a img{
   right: 1rem;
   width: 2rem;
   float: right;
-  padding: 0.5rem;
+  padding: 0.3rem;
+  position: relative;
+  top: 127px;
 }
 
 /* copy */
@@ -82,5 +89,14 @@ footer p{
   position: relative;
   top: 7rem;
   padding: 1rem;
+  text-align: left;
 }
+
+p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+
 
