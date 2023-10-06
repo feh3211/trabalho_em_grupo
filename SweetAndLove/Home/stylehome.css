@@ -34,11 +34,13 @@ h2 {
   font-family: "Italianno", cursive;
   font-size: 5rem;
   font-weight: normal;
-  width: 25rem;
+  width: 22rem;
   position: relative;
   top: auto;
-  left: 22rem;
+  left:30%;
+  right:34%;
   bottom: 8.5rem;
+  text-align: center;
 }
 /*posição navegador*/
 nav {
@@ -65,7 +67,7 @@ footer {
 }
 
 #titulofooter{
-  bottom: 0.5rem;
+  bottom: 0.8rem;
 }
 
 footer a img{
@@ -78,7 +80,7 @@ footer a img{
 /* copy */
 footer p{  
   position: relative;
-  top: 6.5rem;
-  left:29rem ;
+  top: 7rem;
+  padding: 1rem;
 }
 
