@@ -36,8 +36,8 @@ header{
     font-size: 1,5rem;
     background-color: #b29077;
     border-color: #b29077;
-    width: 100%;
-    padding: 1rem 0;
+    height: 8em ;
+    /* padding: 1rem 0; */
     border-bottom: 2px solid #000000;
 }
 
@@ -60,7 +60,7 @@ nav a{
     list-style-type: none;
     color: white;
     text-decoration: none;
-    border: 1px solid #6b4226;
+    border: 1px solid #b29077;
     text-justify: center;
     text-align: center;
 }
@@ -71,19 +71,20 @@ nav a{
     float: left;
     position: relative;
     left: 1rem;
-    bottom: 7rem ;
+    bottom: 5rem;
 }
 
 /* posição da imagem de capa da pg */
 #capa{
     height: auto;
-    width: 100%;    
+    width: 100%;   
+    margin-top: -73px; 
 }
 
 footer{
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+    font-size: 1rem;
     background-color: #b29077;
     border-color: #b29077;
     width: 100%;
