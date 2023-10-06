@@ -13,6 +13,23 @@ body {
   font-size: 1.5rem;
 }
 
+#doces1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.doce{
+  border-radius: 10%;
+  height: 15%;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.doce:hover{
+transform: scale(1.2);
+transition: .6s;
+}
+
 header {
   background-color: #b29077;
   border-color: #b29077;
