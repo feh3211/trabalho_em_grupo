@@ -70,12 +70,12 @@ footer {
 footer a img{
   right: 1rem;
   width: 2rem;
-
+  float: right;
+  padding: 0.5rem;
 }
 
 /* copy */
-footer p{   
+footer p{  
 
-  
 }
 
