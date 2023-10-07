@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Amatic SC", cursive;
+<<<<<<< HEAD
 }
 
 body {
@@ -121,4 +122,117 @@ a:hover{
   
 }
 
+=======
+}
+
+body {
+  background-color: #fae7e7;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid #b29077;
+  border-right: 1px solid #b29077;
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+  height: 11.1rem;
+  border-bottom: 2px solid #000000;
+}
+
+#logo {
+  height: auto;
+  width: 9rem;
+  float: left;
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+}
+
+/*titulo da pagina*/
+#Titulo-header {
+  font-family: "Italianno", cursive;
+  font-size: 5rem;
+  font-weight: normal;
+  width: 22rem;
+  position: relative;
+  top: auto;
+  left: 37%;
+  right: 34%;
+  bottom: 8.5rem;
+  text-align: center;
+}
+
+/*posição navegador*/
+nav {
+  display: grid;
+  justify-content: end;
+  padding: 2rem;
+  position: relative;
+}
+
+/*estilização do texto*/
+nav a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #b29077;
+}
+
+section{
+  margin-left: 5em;
+}
+
+
+/* posição da imagem de capa da pg */
+#Capa{
+  height: auto;
+  width: 100%;   
+  margin-top: -73px; 
+}
+
+#Salgados{
+  display: flex;
+  justify-content: space-around;
+}
+
+.salgado{
+  border-radius: 10%;
+  height: 15%;
+  width: 15%;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #b29077;
+  border-color: #b29077;
+  color: white;
+  border-top: 2px solid #000000;
+  height: 11.1rem;
+}
+
+#tituloFooter{
+  bottom: 0.8rem;
+}
+
+footer a img{
+  right: 1rem;
+  width: 2rem;
+  float: right;
+  padding: 0.3rem;
+  position: relative;
+  top: 5rem;
+}
+
+/* copy */
+footer p{  
+  position: relative;
+  top: 7rem;
+  padding: 1rem;
+  text-align: left;
+}
+>>>>>>> ba4b59064609684dc8073e05dd1677601428e9c4
 
