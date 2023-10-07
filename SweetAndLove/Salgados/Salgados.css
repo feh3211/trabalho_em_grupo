@@ -13,6 +13,23 @@ body {
   font-size: 1.5rem;
 }
 
+#doces1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.doce{
+  border-radius: 10%;
+  height: 15%;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.doce:hover{
+transform: scale(1.2);
+transition: .6s;
+}
+
 header {
   background-color: #b29077;
   border-color: #b29077;
@@ -29,7 +46,6 @@ header {
   left: 1rem;
   top: 1.5rem;
 }
-
 /*titulo da pagina*/
 h2 {
   font-family: "Italianno", cursive;
@@ -50,37 +66,18 @@ nav {
   padding: 2rem;
   position: relative;
 }
-
 /*estilização do texto*/
 nav a {
   list-style-type: none;
   color: white;
   text-decoration: none;
   border: 1px solid #b29077;
+  
 }
 
-section{
-  margin-left: 5em;
-}
-
-
-/* posição da imagem de capa da pg */
-#Capa{
+img {
+  width: 100%;
   height: auto;
-  width: 100%;   
-  margin-top: -73px; 
-}
-
-#Salgados{
-  display: flex;
-  justify-content: space-around;
-}
-
-.salgado{
-  border-radius: 10%;
-  height: 15%;
-  width: 15%;
-  margin-top: 10px;
 }
 
 footer {
@@ -91,7 +88,7 @@ footer {
   height: 11.1rem;
 }
 
-#tituloFooter{
+#titulofooter{
   bottom: 0.8rem;
 }
 
@@ -112,9 +109,16 @@ footer p{
   text-align: left;
 }
 
-#capasalgados{
-  width: 100%;
-  height: auto;
+p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 }
 
+a:hover{
+  transform: scale(1.5);
+  transition: 1.6s;
   
+}
+
+
