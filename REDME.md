@@ -7,4 +7,4 @@ Este é um repositório que contém o código fonte do site da doceria Sweet and
 - Alexsandro Araujo: Responsável pela implementação da parte de formulário do site.
 - Iris Fernanda: Responsável pela criação dos salgados oferecidos pela doceria.
 - Gustavo Henrique: Encarregado de desenvolver os doces irresistíveis da Sweet and Love.
-- Felipe: Responsável pela criação e design da página inicial do site.
+- Felipe Soares: Responsável pela criação e design da página inicial do site.
