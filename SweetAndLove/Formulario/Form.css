@@ -22,6 +22,12 @@ transform: scale(1.5);
 transition: .6s;
 }
 
+a:hover{
+  transform: scale(1.5);
+  transition: 1.6s;
+  
+}
+
 header {
   background-color: #b29077;
   border-color: #b29077;
@@ -129,7 +135,7 @@ p {
 }
 
 input{
-    color: #b29077;
+    color: #000000;
     text-align: center;
 }
 

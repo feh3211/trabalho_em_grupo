@@ -12,6 +12,11 @@
     border-right: 1px solid #b29077;
     font-size: 1.5rem;
   }
+  a:hover{
+    transform: scale(1.5);
+    transition: 1.6s;
+    
+}
   
   #doces1{
     display: flex;

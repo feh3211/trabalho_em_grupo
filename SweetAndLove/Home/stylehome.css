@@ -59,6 +59,12 @@ h2 {
   bottom: 8.5rem;
   text-align: center;
 }
+
+a:hover{
+    transform: scale(1.5);
+    transition: 1.6s;
+    
+}
 /*posição navegador*/
 nav {
   display: grid;
